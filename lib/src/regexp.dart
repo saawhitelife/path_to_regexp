@@ -39,7 +39,7 @@ RegExp tokensToRegExp(
     buffer.write(lastPattern);
   }
   if (!prefix) {
-    buffer.write(r'$');
+    // buffer.write(r'$');
   } else if (lastPattern != null && !lastPattern.endsWith('/')) {
     // Match until a delimiter or end of input, unless
     //  (a) there are no tokens (matching the empty string), or
