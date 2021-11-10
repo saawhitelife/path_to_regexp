@@ -3,7 +3,7 @@ import 'token.dart';
 
 /// The default pattern used for matching parameters.
 const _defaultPattern = '([^/]+?)';
-const _endPattern = '([^/?]+?)';
+const _endPattern = '([^/?]+)';
 
 /// The regular expression used to extract parameters from a path specification.
 ///
